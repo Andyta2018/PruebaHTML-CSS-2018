@@ -1,0 +1,50 @@
+header{
+	margin-top: 0px;
+}
+
+.navbar{
+	
+	background-color: white;
+	width: 100%;
+}
+
+.contenido{
+	margin-top: 100px;
+}
+.jumbotron{
+	background-image: url('images/fondocolores.jpg');
+	height: 200px;
+	padding-top: 20px;
+	margin-bottom: 0px;
+}
+
+footer{
+	font-family: bold 120%, "Tahoma", "Geneva", sans-serif;
+	font-size: 25px;
+}
+
+.textfooter{
+	
+	margin:auto;
+	text-align: center;
+	color: black;
+}
+
+.redes{
+	clear: left;
+
+	
+}
+.imgfooter{
+	width: 2rem;
+	float: left;
+	margin-left: 15rem;
+}
+
+iframe{
+	width: 100%;
+	margin-top: 0px;
+}
+
+
+
