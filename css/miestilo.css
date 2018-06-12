@@ -4,27 +4,49 @@ header{
 
 .navbar{
 	
-	background-color: white;
+	background-image: url('images/fondocolores.jpg');
 	width: 100%;
+	position: fixed;
+
 }
 
-.contenido{
-	margin-top: 100px;
+.container1{
+	background-image: url('images/fondogrid.jpg');
+	height: 100%;
 }
+.row{
+	font-size: 10px;
+	
+}
+
+.col-md-4{
+	top: 100px;
+}
+
+.col-md-8{
+	top: 100px;
+	font-size: 15px;
+}
+
 .jumbotron{
+	position: relative;
 	background-image: url('images/fondocolores.jpg');
 	height: 200px;
 	padding-top: 20px;
 	margin-bottom: 0px;
+	margin-top: 2px;
 }
+
+
 
 footer{
 	font-family: bold 120%, "Tahoma", "Geneva", sans-serif;
-	font-size: 25px;
+	font-size: 15px;
+
 }
 
 .textfooter{
-	
+	background-image: none;
 	margin:auto;
 	text-align: center;
 	color: black;
