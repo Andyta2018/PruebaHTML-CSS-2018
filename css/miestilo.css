@@ -3,23 +3,27 @@ header{
 }
 
 .navbar{
-	background-image: url('images/fondocolores.jpg');
+	background-color: white;
 	width: 100%;
 	position: fixed;
+	border-top: solid #300954 12px;
+	border-bottom: solid silver 2px;
 	z-index: 1;
 }
 a{
-	color: white;
+	color: #300954;
 	font: bold 120% cursive;
 }
 
 
 body{
-	background-image: url('images/fondogrid.jpg');
+	background-color: white;
 	width: 100%;
 }
+
+
 .container1{
-	
+
 	height: 100%;
 	text-align: center;
 	
@@ -39,7 +43,6 @@ body{
 .row3{
 	font-size: 10px;
 	padding-bottom: 400px;
-	
 }
  li{
  	text-align: left;
@@ -52,11 +55,11 @@ body{
 	top: 100px;
 }
 h2{
-	color: #62B0E5;
+	color: #1B17B0;
 }
 
 h3{
-	color: #62B0E5;
+	color: #1B17B0;
 }
 .col-md-6{
 	top: 120px;
@@ -64,24 +67,30 @@ h3{
 }
  .nos{
  	margin-top: 15px;
- 	border: solid 2px #62B0E5;
+ 	border: solid 2px silver;
  }
 .act{
 	float: left;
 }
 .jumbotron{
 	position: relative;
-	background-image: url('images/fondocolores.jpg');
+	background-image: url('images/fondojumbo.jpg');
 	height: 150px;
 	padding-top: 20px;
 	margin-bottom: 0px;
 	margin-top: 0px;
 }
 
+.jumbotron p{
+	color: #300954;
+	font: bold 120% cursive;
+}
 
 footer{
+
 	font-family: bold 120%, "Tahoma", "Geneva", sans-serif;
 	font-size: 15px;
+	margin-top: 3px;
 
 }
 
@@ -93,14 +102,13 @@ footer{
 }
 
 .redes{
-	clear: left;
-
+	padding-left: 420px;
 	
 }
 .imgfooter{
 	width: 2rem;
 	float: left;
-	margin-left: 15rem;
+	margin-right: 5rem;
 }
 
 iframe{
@@ -117,14 +125,17 @@ button{
 	top: 50px;
 }
 .containerfooter{
-	
 	height: 100%;
 	text-align: left;
-	background-color: #62B0E5;
 	margin-bottom: 2px;
 	
 }
 
-.containercarrusel{
-	margin-top:200px;
+.containercarousel{
+	padding-top: 100px;
+	
+}
+
+.nos{
+	margin-bottom: 200px;
 }
